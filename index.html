@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Moveis Belari - Moveis Planejados em [Sua Cidade]</title>
+    <meta name="description"
+        content="Möveis planejados sob medida com design moderno e funcional. Solicite orçamento com a Möveis Belari.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon Correto -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container1">
+            <div class="logo">
+                <img src="logopng.png" alt="Logo Meu Lar Planejados">
+            </div>
+
+            <!-- Botão de menu para dispositivos móveis -->
+            <button class="menu-toggle" aria-label="Abrir Menu">&#9776;</button>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a class="aboutt" href="index.html">HOME</a></li>
+                    <li><a class="aboutt" href="about.html">SOBRE NÓS</a></li>
+                    <li>
+                        <div class="form-group">
+                            <select id="paginaSelect">
+                                <option class="titulopp" value="" disabled selected>AMBIENTES</option>
+                                <option value="produtos.html">Geral</option>.
+                                <option value="quartos.html">Quartos</option>.
+                                <option value="homethear.html">Sala de estar</option>.
+                                <option value="benheiros.html">Banheiros</option>.
+                                <option value="cozinha.html">Sala de jantar</option>.
+                                <option value="mesa.html">Lavanderia</option>.
+                                <option value="banquetas.html">Closet</option>.
+                                <option value="nvambiente.html">Cozinha</option>.
+                                <option value="avulsos.html">Moveis Avulsos</option>.
+                            </select>
+                        </div>
+                    </li>
+                    <li><a class="contato" href="contato.html">CONTATO</a></li>
+                    <li><a href="#ambientes">LOCALIZAÇÃO</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-icons">
+                <a
+                    href="https://api.whatsapp.com/send?phone=5551991993375&text=Ol%C3%A1%20Belari%20M%C3%B3veis%2C%20vim%20pelo%20Instagram%20e%20gostaria%20de%20um%20or%C3%A7amento!">
+                    <img class="wpp" src="wpp.png" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com/belari.moveis/">
+                    <img class="insta" src="pngegg.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/BelariMoveisobmedida/">
+                    <img class="face" src="facebook.png" alt="Facebook"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="carrocel">
+            <div class="carousel">
+                <div class="carousel-images" id="carousel-images">
+                    <img src="Foto capa.png" alt="Imagem 1">
+                    <img src="foto capa principal.png" alt="Imagem 2">
+                    <img src="foto capa principal 2.png" alt="Imagem 3">
+                </div>
+                <div class="controls">
+                    <button class="control-btn" onclick="prevImage()"></button>
+                    <button class="control-btn" onclick="nextImage()"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="products">
+            <div class="container">
+                <h1>Uma linha de produtos para transformar seus ambientes</h1>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <a href="produtos.html"><img src="Cozinha 2.png" alt="Cozinha Planejada"></a>
+                        <h3>Cozinhas</h3>
+                    </div>
+                    <div class="product-item">
+                        <a href="produtos.html"><img src="Quarto 5.png" alt="Dormitório Planejado"></a>
+                        <h3>Quartos</h3>
+                    </div>
+                    <div class="product-item">
+                        <a href="produtos.html"><img src="Banheiro 2.png" alt="Banheiro Planejado"></a>
+                        <h3>Banheiros</h3>
+                    </div>
+                    <div class="product-item">
+                        <a href="produtos.html"><img src="Sala de estar 4.png" alt="Home Thear"></a>
+                        <h3>Sala de estar</h3>
+                    </div>
+                </div>
+                <a href="produtos.html" class="button">Veja mais ambientes</a>
+            </div>
+        </section>
+
+
+        <section id="ambientes" class="environments">
+            <div class="container">
+                <h2>LOCALIZAÇÃO</h2>
+                <p>A Belari Móveis é perfeita para você que valoriza o custo-benefício, qualidade e modernidade em seus
+                    móveis.</p>
+                <div class="maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1027.9930455930305!2d-51.00142964375175!3d-29.929309690354916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95190b5a5e59b00d%3A0xd4b6a2a91460eef6!2sR.%20Jorge%20Amado%2C%20157%20-%20Santa%20Cruz!5e0!3m2!1spt-BR!2sbr!4v1748060994585!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="logopng.png" alt="Logo Belari">
+            </div>
+            <div class="contact-info">
+                <h3>ENDEREÇO</h3>
+                <p>Rua Jorge Amado, 177, Gravataí 94170010</p>
+            </div>
+            <div class="ulsocial-icons">
+                <a
+                    href="https://api.whatsapp.com/send?phone=5551991993375&text=Ol%C3%A1%20Belari%20M%C3%B3veis%2C%20vim%20pelo%20Instagram%20e%20gostaria%20de%20um%20or%C3%A7amento!">
+                    <img class="uwpp" src="wpp.png" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com/belari.moveis/">
+                    <img class="uinsta" src="pngegg.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/BelariMoveisobmedida/">
+                    <img class="uface" src="facebook.png" alt="Facebook"></a>
+            </div>
+        </div>
+        </div>
+        <div class="copy-notice">
+            <p>© 2025 Belari Móveis. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
